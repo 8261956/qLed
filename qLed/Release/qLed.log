@@ -1,0 +1,42 @@
+﻿Build started 2018/1/23 0:06:52.
+     1>Project "E:\QtProj\QLed\vs\qLed\qLed\qLed.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing simulator.h...
+         Uic'ing simulator.ui...
+         Moc'ing ctrlled.h...
+         Rcc'ing simulator.qrc...
+     1>RCC : warning : No resources in 'E:\QtProj\QLed\vs\qLed\qLed\simulator.qrc'.
+         
+       ClCompile:
+         D:\Program Files (x86)\vs13\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include /I.\GeneratedFiles\Release /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtCore /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtGui /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtNetwork /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtPrintSupport /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtSerialPort /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtUiTools /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_PRINTSUPPORT_LIB /D QT_SERIALPORT_LIB /D QT_UITOOLS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ctrl\ctrlled.cpp GeneratedFiles\Release\moc_ctrlled.cpp GeneratedFiles\Release\moc_simulator.cpp main.cpp simulator.cpp
+         ctrlled.cpp
+     1>ctrl\ctrlled.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\qtproj\qled\vs\qled\qled\ctrl\ctrlled.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\qtproj\qled\vs\qled\qled\ctrl\ctrlled.h(483): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         moc_ctrlled.cpp
+     1>e:\qtproj\qled\vs\qled\qled\generatedfiles\release\../../ctrl/ctrlled.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\qtproj\qled\vs\qled\qled\generatedfiles\release\../../ctrl/ctrlled.h(483): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         moc_simulator.cpp
+         main.cpp
+     1>e:\qtproj\qled\vs\qled\qled\ctrl/ctrlled.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\qtproj\qled\vs\qled\qled\ctrl/ctrlled.h(483): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         simulator.cpp
+         Generating Code...
+         D:\Program Files (x86)\vs13\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include /I.\GeneratedFiles\Release /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtCore /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtGui /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtNetwork /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtPrintSupport /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtSerialPort /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtUiTools /ID:\Program\Qt5_7_MSVC\5.7\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_PRINTSUPPORT_LIB /D QT_SERIALPORT_LIB /D QT_UITOOLS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_simulator.cpp
+         qrc_simulator.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\qLed.res" qLed.rc 
+       Link:
+         D:\Program Files (x86)\vs13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\QtProj\QLed\vs\qLed\Win32\Release\\qLed.exe" /NOLOGO /LIBPATH:D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Network.lib Qt5PrintSupport.lib Qt5SerialPort.lib Qt5UiTools.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\QtProj\QLed\vs\qLed\Win32\Release\qLed.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\QtProj\QLed\vs\qLed\Win32\Release\qLed.lib" /MACHINE:X86 /SAFESEH Release\qLed.res
+         Release\ctrlled.obj
+         Release\qrc_simulator.obj
+         Release\moc_ctrlled.obj
+         Release\moc_simulator.obj
+         Release\main.obj
+         Release\simulator.obj
+         qLed.vcxproj -> E:\QtProj\QLed\vs\qLed\Win32\Release\qLed.exe
+     1>Done Building Project "E:\QtProj\QLed\vs\qLed\qLed\qLed.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.30

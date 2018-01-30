@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root_Screen TxcArea_Custom="false" RxcModeIndex="0" Rxc_HighRefresh="0">
+	<Txcs>
+		<Txc Addr="61440" Control_Type="2691" Control_Type_TW="614" Resolution_Custom="false" Resolution_X="0" Resolution_Y="0" Resolution_W="1280" Resolution_H="1024" Port1_X="0" Port1_Y="0" Port1_W="1280" Port1_H="512" Port2_X="0" Port2_Y="0" Port2_W="1280" Port2_H="512" Port3_X="0" Port3_Y="0" Port3_W="1280" Port3_H="512" Port4_X="0" Port4_Y="0" Port4_W="1280" Port4_H="512" Version_Sub="1" DVI_Frame="60"/>
+	</Txcs>
+	<Screens>
+		<Screen Max_ChnCount="24" DoorNum="0" X="0" Y="0" Scan_Mode="1" Scan="16" Conf_Num="0" Chip_ID="0" Chip_ID_Sub="0" Chip_ID_Ord="0" DA="1" OE="0" Red_MUX="0" Green_MUX="1" Blue_MUX="2" Port_Count="0" TxcFPGA="0" Connect="0" ConnectStanded_Ad="false" Sort="0" ColCount="1" RowCount="1">
+			<Rxc_Doors/>
+			<Rxcs>
+				<Rxc Empty="false" Seted="false" TxcOrd="0" TxcPortOrd="0" X="0" Y="0" Width="128" Height="96" SetOrd="0" RealOrd="0" Data_Offset_Ch="true" Data_Offset_None="true">
+					<Rxc_ChMux Normal="true" Odd_Even="false" ReverseOrd="false" Ch0_Mux="0" Ch1_Mux="1" Ch2_Mux="2" Ch3_Mux="3" Ch4_Mux="4" Ch5_Mux="5" Ch6_Mux="6" Ch7_Mux="7" Ch8_Mux="8" Ch9_Mux="9" Ch10_Mux="10" Ch11_Mux="11" Ch12_Mux="12" Ch13_Mux="13" Ch14_Mux="14" Ch15_Mux="15" Ch16_Mux="16" Ch17_Mux="17" Ch18_Mux="18" Ch19_Mux="19" Ch20_Mux="20" Ch21_Mux="21" Ch22_Mux="22" Ch23_Mux="23"/>
+					<DataOffsetTable/>
+				</Rxc>
+			</Rxcs>
+			<TxcInfos>
+				<TxcInfo X="0" Y="0" Bottom="0" Right="0">
+					<TxcPortInfos>
+						<TxcPortInfo X="0" Y="0" Bottom="0" Right="0"/>
+						<TxcPortInfo X="0" Y="0" Bottom="0" Right="0"/>
+						<TxcPortInfo X="0" Y="0" Bottom="0" Right="0"/>
+						<TxcPortInfo X="0" Y="0" Bottom="0" Right="0"/>
+					</TxcPortInfos>
+				</TxcInfo>
+			</TxcInfos>
+			<DPARA Display_Mode_HR="0" Gray_Scale_HR="10" H_Forward_HR="6" H_En_HR="6" H_Back_HR="6" Freq_L_HR="3" Freq_H_HR="3" Freq_HR="6" Clk_Phase_HR="0" OE_Forward_HR="9" OE_Min_HR="7" OE_Back_HR="0" User_Freq_Factor_HR="2" Scan_Rate_HR="8" BrightMode_HR="1" NoSignal_HR="1" Display_Mode="1" Gray_Scale="10" H_Forward="8" H_En="23" H_Back="9" Freq_L="3" Freq_H="3" Freq="6" Clk_Phase="0" OE_Forward="9" OE_Min="1126" OE_Back="0" OEMin_Auto="true" OEMin_Mode="0" NoSignal="0" Gamma_Type="0" Gamma_Ad_Type="0" Gamma_Mode="0" Gamma_LineComp="true" GAMMA_R="28" GAMMA_G="28" GAMMA_B="28" WhiteBlance_R="100" WhiteBlance_G="100" WhiteBlance_B="100" Blanking="20" WrapTime="0" EnableAfterglow="true" AfterglowPolarity="1" AfterglowStart="0" AfterglowEnd="10">
+				<Pwm_HR/>
+				<Custom_GrayTable_HR>[0-0],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[1-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[2-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[2-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[3-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[3-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[3-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3];[3-1],[9-5],[4-1],[9-5],[5-1],[8-4],[5-1],[8-4],[6-2],[7-3],[6-2],[7-3]</Custom_GrayTable_HR>
+				<GammaValue/>
+			</DPARA>
+		</Screen>
+	</Screens>
+</Root_Screen>
