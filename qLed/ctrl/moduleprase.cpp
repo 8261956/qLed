@@ -104,7 +104,7 @@ void ModulePrase::checkContent(CtrlLED * ctrl, QJsonArray cList)
 	foreach(QJsonValue item, cList){
 		QJsonObject content = item.toObject();
 		QString depName = content["department"].toString();
-		QString id = content["id"].toInt();
+		int id = content["id"].toInt();
 		QString type = content["type"].toString();
 		
 		T_AREA area;
@@ -124,18 +124,21 @@ void ModulePrase::checkContent(CtrlLED * ctrl, QJsonArray cList)
 		QString text = checkText(content["text"].toString(),content["para"].toArray());
 		int nStunt = content["nStunt"].toInt();
 		
-		ctrl->Disp(area, font, text, nStunt);
+		ctrl->Disp(id,area, font, text, nStunt);
 		qDebug() << "Disp area: " << area.x << " " <<area.y << " " << area.width <<" "<< area.height <<" : "<<text;
 	}
+	ctrl->Send();
+	qDebug() << "success";
+
 }
 
 QString ModulePrase::checkText(QString text,QJsonArray pList)
 {
+	QStringList valList;
 	foreach(QJsonValue item, pList)
 	{
 		QString para = item.toString();
 		QStringList partList = para.split("->");
-		QStringList valList;
 		QString path = partList.first();
 		qDebug() << "para : " << para;
 		qDebug() << "para json file : " << path;
@@ -155,7 +158,7 @@ QString ModulePrase::checkText(QString text,QJsonArray pList)
 				{
 					if (jsonObj.contains(part)){
 						val = jsonObj[part];
-						jsonObj = jsonObj[part].toObject;
+						jsonObj = jsonObj[part].toObject();
 					}
 					else{
 						qWarning() << " part lost! file : " << path << " part: " <<part;
@@ -170,7 +173,31 @@ QString ModulePrase::checkText(QString text,QJsonArray pList)
 		}
 
 	}
-	text.sprintf(text.toStdString().c_str(), valList);
+	text = printStringList(text, valList);
+	qDebug() << "Disp text : " << text;
+	return text;
+}
+
+QString ModulePrase::printStringList(QString text, QStringList valList)
+{
+	if (valList.size() == 0){
+		return text;
+	}
+	else if (valList.size() == 1){
+		return text.arg(valList[0]);
+	}
+	else if (valList.size() == 2){
+		return text.arg(valList[0], valList[1]);
+	}
+	else if (valList.size() == 3){
+		return text.arg(valList[0], valList[1], valList[2]);
+	}
+	else if (valList.size() == 4){
+		return text.arg(valList[0], valList[1], valList[2], valList[3]);
+	}
+	else if (valList.size() == 5){
+		return text.arg(valList[0], valList[1], valList[2], valList[3], valList[4]);
+	}
 	return text;
 }
 

@@ -17,7 +17,7 @@ public:
 	void checkFile(unsigned int idx, QString fileName, QString filePath);
 	void checkContent(CtrlLED * ctrl, QJsonArray cList);
 	QString checkText(QString text, QJsonArray pList);
-
+	QString printStringList(QString text, QStringList valList);
 private:
 	int mFileCnt;
 	QMap<QString, CtrlLED *> manager;

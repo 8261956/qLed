@@ -88,14 +88,12 @@
     <CustomBuild Include="ctrl\moduleprase.h">
       <Filter>ctrl</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_simulator.h">
+    <CustomBuild Include="GeneratedFiles\ui_simulator.h">
       <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ctrl\ledDll.h">
+    </CustomBuild>
+    <CustomBuild Include="ctrl\ledDll.h">
       <Filter>ctrl</Filter>
-    </ClInclude>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="qLed.rc" />

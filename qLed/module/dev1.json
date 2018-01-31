@@ -1,24 +1,24 @@
 {
   "devInfo": {
-    "ip": "192.168.17.205",
-    "width": 250,
-    "height": 100,
+    "ip": "192.168.17.199",
+    "width": 64,
+    "height": 16,
     "card": "BX6Q1",
     "screenColorType": 4
   },
     "contentList": [
         {
-            "id" : 1,
+            "id" : 0,
             "type": "text",
             "area": {
-                "x": 10,
-                "y": 5,
-                "width": 60,
-                "height": 30
+                "x": 0,
+                "y": 0,
+                "width": 32,
+                "height": 16
             },
             "font": {
                 "name": "宋体",
-                "size": 24,
+                "size": 10,
                 "bold": 0,
                 "color": 65535
             },
@@ -26,41 +26,22 @@
             "nStunt": 1
         },
         {
-            "id" : 2,
+            "id" : 1,
             "type" : "text",
             "area" :{
-                "x": 10,
-                "y" : 5,
-                "width" : 60,
-                "height" : 30
+                "x": 32,
+                "y" : 0,
+                "width" : 32,
+                "height" : 16
             },
             "font" : {
                 "name" : "宋体",
-                "size" : 24,
+                "size" : 10,
                 "bold" : 0,
                 "color" : 65535
             },
-            "text" : "请%s到%s就诊",
+            "text" : "请%1到%2就诊",
             "para" : ["inf/win1.json->publish->name" , "inf/win1.json->publish->winPos"],
-            "nStunt" : 4
-        },
-        {
-            "id" : 3,
-            "type" : "text",
-            "area" :{
-                "x": 10,
-                "y" : 5,
-                "width" : 60,
-                "height" : 30
-            },
-            "font" : {
-                "name" : "宋体",
-                "size" : 24,
-                "bold" : 0,
-                "color" : 65535
-            },
-            "text" : "业务: %s",
-            "para" : ["inf/win1.json->publish->queueName"],
             "nStunt" : 4
         }
     ]

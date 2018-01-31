@@ -30,8 +30,9 @@ public:
 
 	void dllInit();
 	void TestFunc();
-	void Disp(T_AREA area, T_FONT font, QString text, int nStunt);
+	void Disp(int id,T_AREA area, T_FONT font, QString text, int nStunt);
 	void SetCardPara(QString cardIP, int width, int height, QString cardName, int screenColorType);
+	void Send();
 	
 
 signals:
