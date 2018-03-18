@@ -1,25 +1,7 @@
-﻿Build started 2018/1/31 18:23:00.
-     1>Project "C:\ssh\LED\qLed\qLed\qLed.vcxproj" on node 2 (Build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\qLed.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-       CustomBuild:
-         All outputs are up-to-date.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtNetwork /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtPrintSupport /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtSerialPort /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtUiTools /IC:\Qt\Qt5.5.1\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_PRINTSUPPORT_LIB /D QT_SERIALPORT_LIB /D QT_UITOOLS_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_ctrlled.cpp GeneratedFiles\Debug\moc_moduleprase.cpp GeneratedFiles\Debug\moc_simulator.cpp ctrl\ctrlled.cpp ctrl\moduleprase.cpp main.cpp simulator.cpp
-         moc_ctrlled.cpp
-         moc_moduleprase.cpp
-         moc_simulator.cpp
-         ctrlled.cpp
-     1>ctrl\ctrlled.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-         moduleprase.cpp
-         main.cpp
-         simulator.cpp
-         Generating Code...
-         All outputs are up-to-date.
-       ResourceCompile:
-         All outputs are up-to-date.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ssh\LED\qLed\Win32\Debug\\qLed.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013\lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\qtmaind.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Cored.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Guid.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Networkd.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5PrintSupportd.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5SerialPortd.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5UiToolsd.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\ssh\LED\qLed\Win32\Debug\qLed.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ssh\LED\qLed\Win32\Debug\qLed.lib" /MACHINE:X86 /SAFESEH Debug\qLed.res
+﻿Build started 2018/2/1 0:23:15.
+     1>Project "E:\QtProj\QLed\github\qLED\qLed\qLed.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         D:\Program Files (x86)\vs13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\QtProj\QLed\github\qLED\Win32\Debug\\qLed.exe" /NOLOGO /LIBPATH:D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\qtmaind.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5Cored.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5Guid.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5Networkd.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5PrintSupportd.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5SerialPortd.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5UiToolsd.lib D:\Program\Qt5_7_MSVC\5.7\msvc2013\lib\Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\QtProj\QLed\github\qLED\Win32\Debug\qLed.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\QtProj\QLed\github\qLED\Win32\Debug\qLed.lib" /MACHINE:X86 /SAFESEH Debug\qLed.res
          Debug\ctrlled.obj
          Debug\moduleprase.obj
          Debug\moc_ctrlled.obj
@@ -28,12 +10,9 @@
          Debug\qrc_simulator.obj
          Debug\main.obj
          Debug\simulator.obj
-         qLed.vcxproj -> C:\ssh\LED\qLed\Win32\Debug\qLed.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\qLed.tlog\unsuccessfulbuild".
-         Touching "Debug\qLed.tlog\qLed.lastbuildstate".
-     1>Done Building Project "C:\ssh\LED\qLed\qLed\qLed.vcxproj" (Build target(s)).
+         qLed.vcxproj -> E:\QtProj\QLed\github\qLED\Win32\Debug\qLed.exe
+     1>Done Building Project "E:\QtProj\QLed\github\qLED\qLed\qLed.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.60
+Time Elapsed 00:00:00.66
